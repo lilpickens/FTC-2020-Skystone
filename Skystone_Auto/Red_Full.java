@@ -196,7 +196,7 @@ public class Red_Full extends LinearOpMode {
                 if (opState == 2 && opModeIsActive()) { //grab the block in the 3rd position
                     robot.arm.setPosition(robot.armDown);
                     sleep(350);
-                    //robot.grabber.setPosition(robot.aGrabberClosed);
+                    robot.grabber.setPosition(robot.aGrabberClosed);
                     sleep(350);
                     robot.arm.setPosition(robot.armUp);
                     sleep(100);
@@ -307,7 +307,7 @@ public class Red_Full extends LinearOpMode {
                 if (opState == 2 && opModeIsActive()) { //grab the block in the 3rd position
                     robot.arm.setPosition(robot.armDown);
                     sleep(350);
-                    //robot.grabber.setPosition(robot.aGrabberClosed);
+                    robot.grabber.setPosition(robot.aGrabberClosed);
                     sleep(350);
                     robot.arm.setPosition(robot.armUp);
                     sleep(100);
@@ -417,7 +417,7 @@ public class Red_Full extends LinearOpMode {
                 if (opState == 2 && opModeIsActive()) { //grab the block in the 3rd position
                     robot.arm.setPosition(robot.armDown);
                     sleep(350);
-                    //robot.grabber.setPosition(robot.aGrabberClosed);
+                    robot.grabber.setPosition(robot.aGrabberClosed);
                     sleep(350);
                     robot.arm.setPosition(robot.armUp);
                     sleep(100);
